@@ -1,0 +1,98 @@
+.container-greeting,
+.container-closing {
+    height: 100vh;
+    /* width: 100vh; */
+    margin: 0 auto;
+    text-align: center;
+    visibility: hidden;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.sec-one .one .name {
+    padding: 3px 5px;
+    border-radius: 8px;
+}
+
+.sec-four {
+    font-weight: bold;
+}
+
+.sec-four h1 .smiley {
+    display: inline-flex;
+}
+
+.text-box {
+    width: 90vw;
+    margin: 0 auto;
+    border: 3px solid #aaa;
+    border-radius: 5px;
+    padding: 22px;
+    position: relative;
+}
+
+.text-box p {
+    margin: 0;
+    text-align: left;
+}
+
+.text-box .typing-box span,
+.typing-box span {
+    visibility: visible;
+    display: none;
+}
+
+.text-box .fake-btn {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #fff;
+    background-color: rgb(21, 161, 237);
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.container-greeting div.sec-three {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+.baloons img {
+    display: inline-block;
+    position: absolute;
+}
+
+.baloons img:nth-child(even) {
+    left: -10%;
+}
+
+.baloons img:nth-child(odd) {
+    right: -10%;
+}
+
+.baloons img:nth-child(3n + 0) {
+    left: 30%;
+}
+
+.closing-two p {
+    padding: 14px;
+}
+
+.closing-two p highlight {
+    padding: 3px 5px;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+.closing-three p, .closing-two p {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#replay {
+    z-index: 3;
+    cursor: pointer;
+}
