@@ -6,12 +6,16 @@ const fetchData = () => {
             dataArr = Object.keys(data);
             dataArr.map(customData => {
                 if (data[customData] !== "") {
+                    // if(customData.indexOf("text") !== -1) {
+                    //     document.querySelector(`[data-node-name="${customData}]`).value = data[customData];
+                    // }
+
                     if (customData === "imgSender") {
                         document
                             .querySelector(`[data-node-name="${customData}"]`)
                             .setAttribute("src", data[customData]);
                     } else {
-                        document.querySelector(`[data-node-name*="${customData}"]`).innerText = data[customData];
+                        document.querySelector(`[data-node-name*="${customData}"]`).innerHTML = data[customData];
                     }
                 }
 

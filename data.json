@@ -1,4 +1,13 @@
 {
+  "greeting": "hey",
+  "name": "Bocil",
+  "fullname": "Regita Aulia Rahmatillah",
+  "inputShowBalloon": "greeting",
+  "text1": "Happy<br>Graduation",
+  "smiley": ":D",
+
+  "inputShowCard": "open whatsapp",
+  "chattingDate": "2023-03-21",
   "senderName": "113 🦖",
   "imgSender": "https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg",
   "senderChatOne": "Hehehe",
